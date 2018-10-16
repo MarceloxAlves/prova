@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+.navbar a.icon {
+    float: right;
+    display: block !important;
+}
+.navbar a:not(:first-child){
+    display: none;
+}
